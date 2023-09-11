@@ -1,0 +1,45 @@
+/* Watchlist.css */
+.watchlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .watchlist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .movie-poster {
+    width: 100px; /* Adjust the width to your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between the poster and title */
+  }
+  /* Watchlist.css */
+.clear-watchlist-button {
+    background-color: #ff5733; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    margin-bottom: 10px; /* Add some margin */
+  }
+  
+  .clear-watchlist-button:hover {
+    background-color: #d84315; /* Change background color on hover */
+  }
+  /* Add this CSS to your existing CSS file or create a new one */
+
+h1 {
+    font-size: 7rem; /* Adjust the font size as needed */
+    color: #333; /* Set the text color */
+    margin-bottom: 20px; /* Add some space below the heading */
+    text-align: center; /* Center-align the heading */
+  }
+  .title{
+    font-size: 4rem; /* Adjust the font size as needed */
+    color: #333; /* Set the text color */
+     /* Add some space below the heading */
+    text-align: center; 
+  }

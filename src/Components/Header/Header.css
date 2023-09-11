@@ -1,0 +1,45 @@
+.nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Use space-between to separate logo, links, and login/signup */
+   /* Center items vertically */
+    padding: 2rem;
+    gap:5rem;
+    font-size: 2rem;
+  }
+  
+  .logo-img {
+    height: 30px;
+    width: 70px;
+  }
+  
+  .nav-links a, .login-signup a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 5rem; /* Add space between links */
+  }
+  
+  .nav-links a.active {
+    border-bottom: 2px solid white;
+  }
+  
+  .login-signup {
+    margin-left: auto; /* Move it to the rightmost side */
+  }
+  /* Header.css */
+
+.profile-image img {
+  width: 3px; /* Adjust the width and height as needed */
+  height: 3px;
+  border-radius: 5%; /* Create a circular profile image */
+}
+
+  @media (max-width: 768px) {
+    .nav {
+      font-size: 1.5rem;
+      gap: 1.5rem;
+    }
+  }
+  

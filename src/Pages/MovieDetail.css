@@ -1,0 +1,210 @@
+.main {
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: column;
+    box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+    padding: 10px 5px 60px 5px;
+    height: auto;
+}
+
+.main-hero {
+    width: 95%;
+    height: 600px;
+    display: flex;
+    margin: 2rem auto;
+
+}
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-parent {
+    width: 900px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    height: 500px;
+}
+
+.main-title {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    margin: 4rem 0;
+    width: 100%;
+}
+
+.child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic-img {
+    display: flex;
+    width: 250px;
+    margin-left: 4rem;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.movie-pic {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.detail-p {
+    align-self: flex-start;
+    width: 70%;
+    margin: 3em 0rem 0 8rem;
+    padding: 10px;
+}
+
+.detail-p h2 {
+    font-size: 3rem;
+}
+
+.detail-p h4 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.detail-p p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+
+
+    .main-hero {
+        width: 310px;
+        height: 200px;
+    }
+
+    .main-parent {
+        width: 100%;
+    }
+
+    .main-title {
+        margin: 1rem 0;
+        font-size: 2.3rem;
+    }
+
+    .child {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .pic-img {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0;
+    }
+
+    .detail-p {
+        align-self: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+
+    }
+
+    .detail-p h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .detail-p h4 {
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .detail-p p {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+
+.main-hero {
+        width: 650px;
+        height: 400px;
+    }
+
+    .detail-p p {
+        width: 65%;
+        font-size: 1.5rem;
+    }
+}
+.button-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .play-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px; /* Increased padding for a bigger button */
+    font-size: 16px; /* Increased font size */
+    font-weight: bold; /* Added bold font weight */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .play-button:hover {
+    background-color: #ff3300;
+  }
+  /* Add to Watchlist Button */
+.watchlist-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Heart Icon */
+ /* Add this to your CSS file */
+.favorite-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favorite-button.favorited {
+    color: red; /* Change this to your desired color */
+  }
+ /* Add this CSS to your MovieDetail.css file */
+.notification {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 30px;
+    background-color: #4caf50; /* Green color */
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem; /* Adjust font size */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .notification.active {
+    opacity: 1;
+  }
+  
