@@ -2,6 +2,16 @@
 
 Demo Link : https://filmpire-react.vercel.app/
 
+### Tech Stack : 
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="home page" width="80"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="home page" width="80"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="home page" width="65" />&nbsp;&nbsp; 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="home page" width="70"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="home page" width="80"/>
+
+</div>
+
 ### Home Page
 <img src="./assets/homescreen.png" alt="home page"/>
 
